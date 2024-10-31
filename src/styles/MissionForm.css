@@ -1,0 +1,31 @@
+  
+    body{
+        display: flex;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .form{
+        background-color: blue;
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+        padding: 20px;
+        gap: 5px;
+        border-radius: 5px;
+    }
+
+    input, select, button, textarea{
+        border-radius: 5px;
+        height: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    button{
+        background-color: rgb(190, 198, 248); 
+    }
+
+    button:hover{
+        background-color: rgb(131, 140, 195); 
+    }
+
+    

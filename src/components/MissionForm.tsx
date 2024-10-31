@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import api from '../services/api';
 import { Mission } from '../types/MissionTypes';
+import "../styles/MissionForm.css"
+
 
 const MissionForm: React.FC = () => {
     const [formData, setFormData] = useState<Mission>({
@@ -25,7 +27,7 @@ const MissionForm: React.FC = () => {
         }
       }; 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className='form'>
       <input type="text" name="name" value={formData.name} onChange={handleChange} placeholder="Name" required />
       <select name="status" value={formData.status} onChange={handleChange}>
         <option value="Pending">Pending</option>

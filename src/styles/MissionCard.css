@@ -1,0 +1,16 @@
+.card{
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+}
+
+p{
+  margin: 5px;
+}
+
+h3{
+  margin: 5px;
+}
