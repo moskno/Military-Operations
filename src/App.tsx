@@ -1,10 +1,13 @@
 import React from 'react';
-import MainPage from './components/MainPage';
+import MissionForm from './components/MissionForm';
+import MissionList from './components/MissionList';
 
-function App(){
+const App: React.FC = () => {
   return (
     <div className='App'>
-      <MainPage/>
+      <h1>Military Operations Dashboard</h1>
+      <MissionForm />
+      <MissionList />
     </div>
   )
 }
